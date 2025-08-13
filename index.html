@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="festival-offer" content="NzglIGZyZWVkb20gb2ZmZXIgZm9yIDc4IHRoIGluZGVwZW5kZW5jZSBkYXk=">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTEC Computer Education, Kannur | Freedom Offer</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f2f5; /* Light grey background */
+        }
+        .freedom-offer-bg {
+            background-color: #e53935; /* Red background for the offer */
+        }
+        .gtec-blue {
+            background-color: #1e88e5; /* GTEC's signature blue */
+        }
+        .gtec-dark {
+            background-color: #263238; /* Dark background for sections */
+        }
+        .hero-section {
+            background: #ffffff;
+        }
+        .course-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .course-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                 <div class="gtec-blue p-2 rounded-md">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                </div>
+                <a href="#" class="text-2xl font-bold text-gray-800">GTEC Kannur</a>
+            </div>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#home" class="text-gray-600 hover:text-blue-600 transition duration-300">Home</a>
+                <a href="#courses" class="text-gray-600 hover:text-blue-600 transition duration-300">Courses</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600 transition duration-300">Contact</a>
+                <a href="#offer" class="bg-red-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-red-700 transition duration-300 shadow-lg">Freedom Offer</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <button id="mobile-menu-button" class="md:hidden text-gray-600 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden px-6 pt-2 pb-4">
+            <a href="#home" class="block py-2 text-gray-600 hover:text-blue-600">Home</a>
+            <a href="#courses" class="block py-2 text-gray-600 hover:text-blue-600">Courses</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-blue-600">Contact</a>
+            <a href="#offer" class="block mt-2 text-center bg-red-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-red-700">Freedom Offer</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section py-12 md:py-20">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16">
+                    <!-- Left Content -->
+                    <div class="w-full md:w-1/2 text-center md:text-left">
+                        <div class="gtec-blue text-white p-8 md:p-12 rounded-lg shadow-2xl">
+                            <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">GTEC COMPUTER EDUCATION</h1>
+                            <p class="text-2xl md:text-3xl font-semibold mt-2">KANNUR</p>
+                        </div>
+                        <div class="gtec-dark text-white p-8 rounded-lg shadow-xl mt-[-20px] ml-0 md:ml-4 max-w-md">
+                            <h3 class="font-bold text-lg mb-2">Why Choose GTEC?</h3>
+                            <ul class="list-disc list-inside space-y-1 text-gray-300">
+                                <li>Industry-relevant curriculum</li>
+                                <li>Expert trainers & individual attention</li>
+                                <li>100% Placement assistance</li>
+                                <li>Globally recognized certification</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Right Content (Freedom Offer) -->
+                    <div id="offer" class="w-full md:w-1/2 flex justify-center items-center mt-10 md:mt-0">
+                        <div class="relative text-center">
+                            <div class="freedom-offer-bg text-white w-72 h-72 md:w-80 md:h-80 rounded-full flex flex-col justify-center items-center shadow-2xl animate-pulse">
+                                <h2 class="text-2xl font-bold uppercase tracking-wider">Freedom Offer</h2>
+                                <p class="text-8xl md:text-9xl font-black my-1">78%</p>
+                                <p class="text-4xl font-bold">OFF</p>
+                            </div>
+                            <a href="#courses" class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white text-red-600 font-bold py-3 px-6 rounded-full shadow-lg hover:scale-105 transition-transform duration-300">
+                                Claim Offer Now &rarr;
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Professional Courses</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto mb-12">Invest in your skills. Pay only 22% of the course fee with our Freedom Offer!</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+                    <!-- Course Card 1 -->
+                    <div class="course-card bg-gray-50 p-6 rounded-lg shadow-md border-t-4 border-blue-500">
+                        <h3 class="font-bold text-xl mb-2">Full Stack Development</h3>
+                        <p class="text-gray-600 text-sm">Master both front-end and back-end technologies to build complete web applications.</p>
+                    </div>
+                    <!-- Course Card 2 -->
+                    <div class="course-card bg-gray-50 p-6 rounded-lg shadow-md border-t-4 border-green-500">
+                        <h3 class="font-bold text-xl mb-2">MERN Stack</h3>
+                        <p class="text-gray-600 text-sm">Specialize in MongoDB, Express.js, React, and Node.js for modern web development.</p>
+                    </div>
+                    <!-- Course Card 3 -->
+                    <div class="course-card bg-gray-50 p-6 rounded-lg shadow-md border-t-4 border-red-500">
+                        <h3 class="font-bold text-xl mb-2">Auto CAD</h3>
+                        <p class="text-gray-600 text-sm">Learn computer-aided design for engineering, architecture, and manufacturing.</p>
+                    </div>
+                    <!-- Course Card 4 -->
+                    <div class="course-card bg-gray-50 p-6 rounded-lg shadow-md border-t-4 border-purple-500">
+                        <h3 class="font-bold text-xl mb-2">Multi Media</h3>
+                        <p class="text-gray-600 text-sm">Unleash your creativity with graphic design, video editing, and animation tools.</p>
+                    </div>
+                    <!-- Course Card 5 -->
+                    <div class="course-card bg-gray-50 p-6 rounded-lg shadow-md border-t-4 border-yellow-500">
+                        <h3 class="font-bold text-xl mb-2">Digital Marketing</h3>
+                        <p class="text-gray-600 text-sm">Drive online growth with SEO, SEM, social media marketing, and content strategy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="gtec-dark text-white py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                <div class="text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
+                    <p class="text-gray-300 max-w-2xl mx-auto mb-12">Have questions? Visit us or send a message. We're here to help you start your career.</p>
+                </div>
+                <div class="flex flex-col md:flex-row gap-12 items-start">
+                    <!-- Contact Form -->
+                    <div class="w-full md:w-1/2">
+                        <form id="contact-form" class="bg-gray-100 p-8 rounded-lg shadow-lg">
+                            <div id="form-message" class="hidden mb-4 p-3 rounded-lg text-center"></div>
+                            <div class="mb-4">
+                                <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+                                <input type="text" id="name" name="name" class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+                                <input type="email" id="email" name="email" class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="block text-gray-700 font-bold mb-2">Message</label>
+                                <textarea id="message" name="message" rows="4" class="w-full px-3 py-2 border rounded-lg text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-blue-600 text-white font-bold py-3 px-4 rounded-lg hover:bg-blue-700 transition duration-300">Send Message</button>
+                        </form>
+                    </div>
+                    <!-- Contact Info & Map -->
+                    <div class="w-full md:w-1/2">
+                        <h3 class="text-2xl font-bold mb-4">Visit Us</h3>
+                        <p class="text-gray-300 mb-2">GTEC Computer Education</p>
+                        <p class="text-gray-300 mb-2">2nd Floor, City Center,</p>
+                        <p class="text-gray-300 mb-6">Fort Road, Kannur, Kerala 670001</p>
+                        
+                        <h3 class="text-2xl font-bold mb-4 mt-8">Call Us</h3>
+                        <p class="text-gray-300 mb-6">+91 98765 43210 (Sample Number)</p>
+
+                        <div class="mt-6">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3904.992652178056!2d75.3703933147597!3d11.85871299161706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba422b8d5555555%3A0x6a2e4e7a8e1a7b8e!2sCity%20Centre!5e0!3m2!1sen!2sin!4v1678886543210!5m2!1sen!2sin" 
+                                width="100%" 
+                                height="250" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade"
+                                class="rounded-lg shadow-lg">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 GTEC Computer Education, Kannur. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Contact Form Submission
+        const contactForm = document.getElementById('contact-form');
+        const formMessage = document.getElementById('form-message');
+
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault(); // Prevent actual form submission
+            
+            // Display a success message
+            formMessage.textContent = 'Thank you! Your message has been sent.';
+            formMessage.classList.remove('hidden', 'bg-red-200', 'text-red-800');
+            formMessage.classList.add('bg-green-200', 'text-green-800');
+            
+            // Clear the form
+            contactForm.reset();
+
+            // Hide the message after 5 seconds
+            setTimeout(() => {
+                formMessage.classList.add('hidden');
+            }, 5000);
+        });
+    </script>
+
+</body>
+</html>
